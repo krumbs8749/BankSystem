@@ -1,0 +1,10 @@
+[{
+  "CLASSNAME": "Payment",
+  "INSTANCE": {
+    "incomingInterest": 0.5,
+    "outgoingInterest": 0.5,
+    "date": "Sun Dec 18 23:18:49 CET 2022",
+    "amount": 172.0,
+    "description": "First New Payment"
+  }
+}]

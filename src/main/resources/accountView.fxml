@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.Label?>
+<?import org.controlsfx.control.ListActionView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.ListView?>
+<?import ui.MainviewController ?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ComboBox?>
+<BorderPane
+        xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <HBox>
+            <Button fx:id="goBack">Back</Button>
+            <ComboBox fx:id="sortType"/>
+            <ComboBox fx:id="direction"/>
+            <Button fx:id="newTransaction">Add New Transaction</Button>
+        </HBox>
+    </top>
+    <center>
+
+     <ListView fx:id="transactionsView"/>
+    </center>
+</BorderPane>
